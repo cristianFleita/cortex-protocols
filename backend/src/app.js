@@ -39,7 +39,7 @@ app.use(express.json({ limit: "2mb" }));
 
 // ── Health ────────────────────────────────────────────────────────────────────
 app.get("/health", (_req, res) => {
-  res.json({
+  res.json({ version: '0.1.0',
     status: "ok",
     service: "cortex-protocol-backend",
     timestamp: new Date().toISOString(),
