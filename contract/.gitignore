@@ -1,6 +1,2 @@
-# Rust's output directory
-target
-
-# Local settings
-.soroban
-.stellar
+target/
+deployed_addresses.env
