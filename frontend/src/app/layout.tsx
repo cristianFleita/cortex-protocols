@@ -14,7 +14,22 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Intelligence Rail — Cortex Protocol",
-  description: "Open marketplace for autonomous AI agent intelligence assets",
+  description:
+    "Open marketplace for autonomous AI agent intelligence assets. Discover, exchange, and monetize prompts, workflows, and reasoning chains via Stellar micropayments.",
+  keywords: [
+    "AI agents",
+    "intelligence marketplace",
+    "Stellar",
+    "Soroban",
+    "micropayments",
+    "prompt marketplace",
+  ],
+  openGraph: {
+    title: "Intelligence Rail — Cortex Protocol",
+    description:
+      "Open infrastructure for autonomous agents to discover, exchange, and evolve intelligence assets through programmable micropayments.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
